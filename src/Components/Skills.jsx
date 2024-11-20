@@ -184,7 +184,7 @@ const Skills = () => {
 
             <div className='mt-10'>
             <p className="text-4xl font-bold">Languages</p>
-              <div className="w-full grid grid-cols-2 sm:grid-cols-5 gap-10 text-center py-8 px-12 sm:px-0">
+              <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 text-center py-8 px-12 sm:px-0">
                 {Languages.map(({ id, src, title, style }) => (
                   <div
                     key={id}
@@ -200,7 +200,7 @@ const Skills = () => {
            
           <div className='mt-10'>
             <p className="text-4xl font-bold">Frameworks and APIs</p>
-              <div className="w-full grid grid-cols-2 sm:grid-cols-5 gap-10 text-center py-8 px-12 sm:px-0">
+              <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 text-center py-8 px-12 sm:px-0">
                 {Framework.map(({ id, src, title, style }) => (
                   <div
                     key={id}
@@ -217,7 +217,7 @@ const Skills = () => {
           <div className='mt-10'> 
 
             <p className="text-4xl font-bold"> Data Analytics</p>
-              <div className="w-full grid sm:grid-cols-1 md:grid-cols-5 gap-10 text-center py-8 px-8 sm:px-0">
+              <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 text-center py-8 px-8 sm:px-0">
                 {DataAnalytics.map(({ id, src, title, style }) => (
                   <div
                     key={id}
@@ -234,7 +234,7 @@ const Skills = () => {
 
           <div className='mt-10'>
             <p className="text-4xl font-bold">Graphic Design</p>
-              <div className="w-full grid grid-cols-2 sm:grid-cols-5 gap-10 text-center py-8 px-12 sm:px-0">
+              <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 text-center py-8 px-12 sm:px-0">
                 {Graphic.map(({ id, src, title, style }) => (
                   <div
                     key={id}
@@ -251,7 +251,7 @@ const Skills = () => {
           <div className='mt-10'>
 
             <p className="text-4xl font-bold"> Database</p>
-              <div className="w-full grid grid-cols-2 sm:grid-cols-5 gap-10 text-center py-8 px-12 sm:px-0">
+              <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 text-center py-8 px-12 sm:px-0">
                 {database.map(({ id, src, title, style }) => (
                   <div
                     key={id}
@@ -266,26 +266,10 @@ const Skills = () => {
 
           </div>
 
-          {/* <div className='mt-10'>
-            <p className="text-4xl font-bold">Languages</p>
-              <div className="w-full grid grid-cols-2 sm:grid-cols-5 gap-10 text-center py-8 px-12 sm:px-0">
-                {language.map(({ id, src, title, style }) => (
-                  <div
-                    key={id}
-                    className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style} w-40`}
-                  >
-                    <img src={src} alt="" className="w-10 mx-auto" />
-                    <p className="mt-4">{title}</p>
-                  </div>
-                  
-                ))}
-              </div>
-          </div> */}
-
 
           <div className='mt-10'>
             <p className="text-4xl font-bold">Tools</p>
-              <div className="w-full grid grid-cols-2 sm:grid-cols-5 gap-10 text-center py-8 px-12 sm:px-0">
+              <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 text-center py-8 px-12 sm:px-0">
                 {tool.map(({ id, src, title, style }) => (
                   <div
                     key={id}
