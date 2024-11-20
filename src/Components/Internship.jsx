@@ -44,10 +44,13 @@ const Internship = () => {
                                     Read More
                                 </span>
                             </a>
+                            
                     </div>
                 </div>
+                
               ))
             }
+            
             </div>
           </div>
         </div>
