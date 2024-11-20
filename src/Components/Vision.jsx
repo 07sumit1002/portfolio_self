@@ -26,10 +26,10 @@ const Vision = () => {
     //   </div>
     // </div>
     <div
-  name="about"
+  name="vision"
   className="w-full bg-gradient-to-b from-cyan-900 to-black text-white md:h-auto"
 >
-  <div className="max-w-screen-lg flex flex-col justify-center mx-auto pt-10 px-4 w-full h-full">
+  <div className="max-w-screen-lg flex flex-col justify-center mx-auto pt-20 px-4 w-full h-full">
     <div className="pb-4">
       <p className="text-4xl font-bold inline border-b-4 border-gray-500">
         My Vision

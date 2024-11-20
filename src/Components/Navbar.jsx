@@ -21,21 +21,26 @@ const Navbar = () => {
         },
         {
             id:3,
-            link:"skills",
+            link:"vision",
 
         },
         {
             id:4,
-            link:"projects",
+            link:"skills",
 
         },
         {
             id:5,
-            link:"Internship",
+            link:"projects",
 
         },
         {
             id:6,
+            link:"Internship",
+
+        },
+        {
+            id:7,
             link:"Contacts",
 
         },
