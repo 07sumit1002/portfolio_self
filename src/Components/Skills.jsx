@@ -154,7 +154,7 @@ const Skills = () => {
     id:15,
     src:c,
     title:'c',
-    style:'shadow-blue-500',
+    style:'shadow-purple-500',
     category: 'Languages'
   },
   {
