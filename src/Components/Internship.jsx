@@ -16,7 +16,7 @@ const Internship = () => {
           id:2,
           src:infit,
           // href:'https://www.infits.in/dashboard.php',
-          org:'ANALYZED.IN',
+          org:'INFITS.IN',
           title: 'Web-Dev Intern and Team Leader',
           des: "Resolved bugs to ensure a smooth and seamless user experience, enhancing overall website performance. Led and mentored a team of 20 interns, fostering collaboration and effective teamwork. Successfully integrated Firebase to enable real-time website notifications, improving user engagement."
         }
