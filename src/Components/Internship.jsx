@@ -30,7 +30,7 @@ const Internship = () => {
               <p className='py-6'>Check out my recent Internships:</p>
             </div>
     
-            <div className=' grid sm:grid-cols-2 md:grid-cols-2 gap-10 px-12 sm:px-0'> 
+            <div className='grid sm:grid-cols-2 md:grid-cols-2 gap-10 px-12 sm:px-0'> 
             {
               /* projects.map(({id,src, href, org, title, des})=>( */
               projects.map(({id,src,  org, title, des})=>(
