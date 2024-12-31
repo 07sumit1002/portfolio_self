@@ -1,4 +1,6 @@
 import React from "react";
+// import Hero from '../assets/heroImage.png'
+// import './sty.css';
 
 const About = () => {
   return (
@@ -6,6 +8,18 @@ const About = () => {
       name="about"
       className="w-full bg-gradient-to-b from-black to-cyan-900  text-white md:h-screen"
     >
+    {/* <div class="top">
+        <div class="top-left">
+          <div class="my-image"><img src={Hero} alt="my image" /></div>
+          <div class="intro">
+            Hi , my name is <span class="name">Sumit</span> and I am a <br />
+            <tt><span id="element">Web Developer</span></tt>
+          </div>
+        </div>
+        <div class="top-right"><img data-tilt src={Hero} alt="dev pic" /></div>
+      </div>
+      <div class="line"></div> */}
+
       <div className="max-w-screen-lg flex flex-col justify-center mx-auto pt-20 px-4 w-full h-full">
         <div className="pb-8">
           <p className=" text-4xl font-bold inline border-b-4 border-gray-500">

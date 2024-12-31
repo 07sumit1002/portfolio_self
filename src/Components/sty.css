@@ -1,0 +1,62 @@
+/* .top {
+    height: 109vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(41, 21, 106));
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 12vh 0;
+}
+
+.top-left {
+    width: 40%;
+    font-size: 3vw;
+    padding: 0 3vw;
+}
+
+.my-image{
+    width: 14vw;
+    height: 14vw;
+    margin: 5vh 30%;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 1px solid rgb(55, 39, 97);
+}
+
+
+.my-image img {
+    width: 100%;
+    transition: all ease 1s;
+}
+
+.my-image img:hover {
+    transform: scale(1.15);
+}
+
+.intro {
+    color: rgb(255, 255, 255);
+}
+
+.name {
+    color: rgb(145, 140, 228);
+}
+
+#element {
+    color: rgb(140, 135, 220);
+}
+
+.top-right {
+    width: 40%;;
+    padding:4% 4%;
+}
+
+.top-right img {
+    width: 100%;
+}
+
+.line {
+    height: 1px;
+    width: 100%;
+    background-color: #a8b3ec;
+    margin: 0 ;
+} */
