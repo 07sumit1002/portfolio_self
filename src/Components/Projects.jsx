@@ -2,6 +2,7 @@ import React from 'react';
 import linkedin from '../assets/ahad.png'
 import cabrental from '../assets/cabrental.png'
 import journeypal from '../assets/journeypal.png'
+import nextalk from '../assets/nextalk.png'
 
 
 
@@ -15,11 +16,11 @@ const Projects = () => {
       desc: 'An AI-driven surveillance solution that uses CV to automatically identify abnormal activities, improving security with real-time monitoring and motion analysis.'
     },
     {
-      id:2,
-      src:cabrental,
-      href:'https://github.com/07sumit1002/CabRental',
-      title: 'CabRental',
-      desc: 'A full-stack website for university students, offering affordable cab booking and partnering services. Built with HTML, CSS, JavaScript, and PHP, it provides an easy-to-use platform for students to book rides conveniently while accessing.'
+      id:4,
+      src:nextalk,
+      href:'https://github.com/07sumit1002/rtc-video-call-master-public',
+      title: "NexTalk",
+      desc: "A real-time video calling platform, featuring live translation and a transcript panel. It uses WebRTC for secure peer-to-peer connections, includes a room management system for private meetings, and supports multi-language speech services."
     },
     {
       id:3,
@@ -27,7 +28,7 @@ const Projects = () => {
       href:'https://github.com/07sumit1002/JourneyPal',
       title: "JourneyPal",
       desc: "A React-based website that creates personalized travel itineraries using OpenAI API based on user input (days, budget, location). It also features a Translator API for language translation."
-    },
+    }
   ];
   return (
     <div name='projects' className=' bg-gradient-to-b from-cyan-900 to-black w-full  text-white md:h-screen'>
@@ -54,11 +55,12 @@ const Projects = () => {
           </div>
           ))
         }
-        </div>
+        </div><br /><br />
         <a href='https://github.com/07sumit1002?tab=repositories' target='_blank' rel="noreferrer">
           <button className='bg-gradient-to-b from-blue-300 to-blue-500 text-white mx-auto flex items-center my-8 px-6 py-3 duration-300 hover:scale-110 rounded-md font-semibold'>View More</button>
-        </a>
+        </a><br /><br /><br /><br />
       </div>
+      <br /><br /><br /><br />
     </div>
   )
 }
