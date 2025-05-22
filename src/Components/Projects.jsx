@@ -1,6 +1,6 @@
 import React from 'react';
 import linkedin from '../assets/ahad.png'
-import cabrental from '../assets/cabrental.png'
+// import cabrental from '../assets/cabrental.png'
 import journeypal from '../assets/journeypal.png'
 import nextalk from '../assets/nextalk.png'
 
